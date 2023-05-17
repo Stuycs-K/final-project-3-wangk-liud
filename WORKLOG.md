@@ -3,8 +3,8 @@
 ## Kevin Wang
 
 ### 10/17/23
-
-info
+* init worklog
+* presentation starter slides
 
 
 ## Daniel Liu
