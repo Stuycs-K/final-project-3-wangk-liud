@@ -1,22 +1,14 @@
 # Work Log
 
-## GROUP MEMBER 1
+## Kevin Wang
 
-### date x
-
-info
-
-### date y
+### 10/17/23
 
 info
 
 
-## GROUP MEMBER 2
+## Daniel Liu
 
-### date x
-
-info
-
-### date y
+### 10/17/23
 
 info
