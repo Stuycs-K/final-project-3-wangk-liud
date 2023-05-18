@@ -41,14 +41,16 @@ CUPP is a command line script but provides an interactive mode that allows you t
 
 When running in the interactive mode, you can provide details about the victims:
 
-name
-nickname
-birthdate
-partner info
-child info
-pet name
-company name
-ANY KEYWORDS ASSOCIATED WITH THEM
+* name
+* nickname
+* birthdate
+* partner info
+* child info
+* pet name
+* company name
+* keywords associated with them
 
+Note that any information that you leave blank will not be reflected in the final wordlist.
 
+After providing this info, CUPP will generate a wordlist geared towards the  information you provided.
 
