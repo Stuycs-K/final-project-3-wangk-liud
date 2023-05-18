@@ -33,8 +33,10 @@ cd cupp/
 ### Running
 CUPP is a command line script but provides an interactive mode that allows you to easily input data about your victim:
 
+```
 ./cupp.py -i
-
+```
+![cupp interactive mode](cupp.png "interactive")
 
 
 When running in the interactive mode, you can provide details about the victims:
