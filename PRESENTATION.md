@@ -54,3 +54,6 @@ Note that any information that you leave blank will not be reflected in the fina
 
 After providing this info, CUPP will generate a wordlist geared towards the  information you provided.
 
+# Demo
+Any volunteers willing to fork up their personal data?
+
