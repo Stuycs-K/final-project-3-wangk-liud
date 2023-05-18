@@ -11,4 +11,12 @@
 
 ### 10/17/23
 
-info
+* init app and associated directories
+
+## Daniel Liu
+
+### 10/17/23
+
+* make web form for user input
+* make relevant templates and did routing
+* got cupp repo

@@ -4,10 +4,69 @@
 
   <body>
     <h1>
-          Welcome, {{username}}!
+          CUPP Online Demo
     </h1>
-    <form action="/logout">
-        <input type="submit" value="logout" />
+   
+    <br>
+
+   <h1>User Information </h1>
+
+   <h2>
+      Leave blank for answers that you may not know
+    </h2>
+
+    <form action="/target_info" method="POST">
+      <input type="text"name="targetName"placeholder="First name of the target" >
+        <br>
+        <br>
+      <input type="text"name="targetSurname"placeholder="Last name of the target" >
+        <br>
+        <br>
+      <input type="text"name="targetNickname"placeholder="Nickname of the target" >
+        <br>
+        <br>
+      <input type="text"name="targetBirthday" style="width: 400px;" placeholder="Birthday of the target (DDMMYYYY)" >
+        <br>
+        <br>
+      <input type="text"name="partnerName"placeholder="First name of the target's partner" >
+        <br>
+        <br>
+      <input type="text"name="partnerNickname"placeholder="Nickname of the target's partner" >
+        <br>
+        <br>
+      <input type="text"name="partnerBirthday" style="width: 400px;" placeholder="Birthday of the target's partner (DDMMYYYY)" >
+        <br>
+        <br>
+      <input type="text"name="childName"placeholder="First name of the target's child" >
+        <br>
+        <br>
+      <input type="text"name="childNickname"placeholder="Nickname of the target's child" >
+        <br>
+        <br>
+      <input type="text"name="childBirthday" style="width: 400px;" placeholder="Birthday of the target's child (DDMMYYYY)" >
+        <br>
+        <br>
+      <input type="text"name="petName"placeholder="First name of the target's pet" >
+        <br>
+        <br>
+      <input type="text"name="company"placeholder="target's workplace/company" >
+        <br>
+        <br>
+      <input type="text"name="keywords"placeholder="Enter in comma seperated words (e.g. juice, coffee,pastry)" >
+        <br>
+        <br>
+      <input type="text"name="specialChars"  style="width: 400px;" placeholder="Automatically add chars? (Y for yes, N for no)" >
+        <br>
+        <br>
+      <input type="text"name="randomNumbers"  style="width: 400px;" placeholder="Automatically add random numbers? (Y for yes, N for no)" >
+        <br>
+        <br>
+      <input type="text"name="leet"placeholder="Leet Mode? (Y for yes, N for no)" >
+        <br>
+        <br>
+        <br>
+    
+      <input type="submit" name="Submit">
     </form>
     
   </body>

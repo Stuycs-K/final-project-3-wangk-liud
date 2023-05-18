@@ -12,54 +12,31 @@ app = Flask(__name__)    #create Flask object
 app.secret_key = os.urandom(32)
 @app.route('/')
 def index():
-    if 'username' in session:
-        return redirect("/home")
-    return render_template('login.html') #edit
-
-@app.route('/login', methods = ['GET','POST'])
-def login():
-    username = request.form.get('username')
-    password = request.form.get('password')
-    if db_tools.verify_account(username,password):
-        session['username'] = username
-        session['password'] = password
-        return redirect("/home")
-    if request.form.get('submit_button') is not None:
-        return render_template("create_account.html")
-    else:
-        resp = make_response(render_template('error.html',msg = "username or password is not correct"))
-        return resp
-
-@app.route('/create_account', methods=['GET', 'POST'])
-def create_account():
-    if request.method == 'POST':
-        userIn = request.form.get('username')
-        passIn = request.form.get('password') 
-        if db_tools.add_account(userIn, passIn) == -1:
-            return f"account with username {userIn} already exists"
-        else:
-            return redirect("/login")
-    return redirect(url_for('index'))
-    
-@app.route('/logout')
-def logout():
-    # remove the username from the session if it's there
-    session.pop('username', None)
-    return redirect(url_for('index'))
+    return redirect("/home")
 
 @app.route('/home')
 def home():
-    if 'username' not in session:
-        return redirect("/login")
-    username = session['username']
-    password = session['password']
-    return render_template("home_page.html", username = username)
+    return render_template("home_page.html")
 
-def verify_session():
-    if 'username' in session and 'password' in session:
-        if db_tools.verify_account(session['username'], session['password']):
-            return True
-    return False
+@app.route("/target_info",  methods=['GET', 'POST'])
+def target_info():
+    targetName = request.form.get('targetName')
+    targetSurname = request.form.get('targetSurname')
+    targetNickname = request.form.get('targetNickname')
+    targetBirthday= request.form.get('targetBirthday')
+    partnerName= request.form.get('partnerName')
+    partnerNickname= request.form.get('partnerNickname')
+    partnerBirthday = request.form.get('partnerBirthday')
+    childName = request.form.get('childName')
+    childNickname= request.form.get('childNickname')
+    childBirthday= request.form.get('childBirthday')
+    petName= request.form.get('petName')
+    company= request.form.get('company')
+    keywords = request.form.get('keywords')
+    specialChars = request.form.get('specialChars')
+    randomNumbers = request.form.get('randomNumbers')
+    leet = request.form.get('leet')
+    return render_template("response.html")
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified
