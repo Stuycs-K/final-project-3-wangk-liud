@@ -8,6 +8,9 @@
 
 ### 10/18/23
 * presentation how to use cupp guide
+* more presentation parts
+* initalize homework details without tryhackme room
+
 
 
 ## Daniel Liu
