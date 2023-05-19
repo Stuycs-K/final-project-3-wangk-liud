@@ -11,7 +11,9 @@
 * more presentation parts
 * initalize homework details without tryhackme room
 
-
+### 10/19/23
+* modify cupp to not be command line and as a parameterized project to be used on front-end
+* begin on tryhackme
 
 ## Daniel Liu
 
@@ -19,9 +21,7 @@
 
 * init app and associated directories
 
-## Daniel Liu
-
-### 10/17/23
+### 10/18/23
 
 * make web form for user input
 * make relevant templates and did routing
