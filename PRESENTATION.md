@@ -1,11 +1,11 @@
 # CUPP - Common User Passwords Profiler
 
 ## Show of Hands
-Who has ever created a password with:
-Your name?
-Nickname?
-Birthdate?
-Pet name?
+Who has ever created a password that included any one of these:
+* Your name?
+* Nickname?
+* Birthdate?
+* Pet name?
 
 ## Your password is vulnerable
 Probably not to rockyou.txt, but a custom password list that hackers can tailor to your data.
@@ -57,5 +57,11 @@ After providing this info, CUPP will generate a wordlist geared towards the  inf
 # Demo
 Any volunteers willing to fork up their personal data?
 
+# Lessons
 
+## Data leaks can make your password vulnerable
+Your personal data can be used to bruteforce your passwords.
+
+## USE A PASSWORD MANAGER
+Password managers are not suspectable to tailored passwords, among numerous other security benefits.
 

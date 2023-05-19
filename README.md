@@ -12,4 +12,4 @@
 ## Other Links
 * [CUPP](https://github.com/Mebus/cupp/tree/master)
 * [CUPP Web App]()
-* [Forked, parametizered CUPP](https://github.com/kev1n/cupp)
+* [Forked, parametizered CUPP for Web App](https://github.com/kev1n/cupp)
