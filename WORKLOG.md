@@ -28,6 +28,12 @@
 * make relevant templates and did routing
 * got cupp repo
 
+### 10/19/23
+
+* work on web form for user input
+* radio buttons
+* work on cupp function result
+
 # References and Resoures
 
 ## General Help
