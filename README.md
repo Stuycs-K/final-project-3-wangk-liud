@@ -1,5 +1,17 @@
 # Presentation on CUPP
 
+## About CUPP
+[CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using personalized information.
+
+## Directions to Run Flask App
+```
+git clone git@github.com:Stuycs-K/final-project-3-wangk-liud.git
+pip3 install flask
+python3 app/app.py
+```
+
+# Links
+
 ## Presentation "Slides"
 [Slides](https://github.com/Stuycs-K/final-project-3-wangk-liud/blob/main/PRESENTATION.md)
 
