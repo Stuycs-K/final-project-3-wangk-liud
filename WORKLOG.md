@@ -13,6 +13,7 @@
 
 ### 10/19/23
 * modify cupp to not be command line and as a parameterized project to be used on front-end
+* include instructions to run web app in readme
 * begin on tryhackme
 
 ## Daniel Liu
@@ -26,3 +27,5 @@
 * make web form for user input
 * make relevant templates and did routing
 * got cupp repo
+
+# References and Resoures
