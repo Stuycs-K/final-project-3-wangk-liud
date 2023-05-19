@@ -29,3 +29,11 @@
 * got cupp repo
 
 # References and Resoures
+
+## General Help
+* [CUPP README](https://github.com/Mebus/cupp/blob/master/README.md)
+* [Kali Linux CUPP docs](https://en.kali.tools/?p=1305)
+
+## VM Help
+
+## Web App Help
