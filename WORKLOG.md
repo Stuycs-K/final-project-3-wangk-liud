@@ -16,6 +16,10 @@
 * include instructions to run web app in readme
 * begin on tryhackme
 
+### 10/20/23
+* fine tune presentation details
+* got flask server to run on virtualbox on startup
+
 ## Daniel Liu
 
 ### 10/17/23
@@ -46,6 +50,9 @@
 * [Kali Linux CUPP docs](https://en.kali.tools/?p=1305)
 
 ## VM Help
+* [tryhackme room creation docs](https://help.tryhackme.com/en/articles/6633511-creating-your-first-room)
+* [John Hammond's tryhackme room creation walkthrough](https://www.youtube.com/watch?v=XyEmZUpNVcI&t=10471s)
+* [systemctl docs](https://www.freedesktop.org/software/systemd/man/systemctl.html)
 
 ## Web App Help
 * [W3 Schools Select Tag Syntax](https://www.w3schools.com/tags/tag_select.asp)
