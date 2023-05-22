@@ -2,7 +2,7 @@ from flask import Flask             #facilitate flask webserving
 from flask import render_template, request   #facilitate jinja templating
 from flask import session, redirect, url_for, make_response        #facilitate form submission
 import os 
-from test_stuff import *
+from new_cupp import *
 
 #the conventional way:
 #from flask import Flask, render_template, request
@@ -35,37 +35,13 @@ def target_info():
     petName= request.form.get('petName')
     company= request.form.get('company')
     keywords = request.form.get('keywords')
-    #specialChars = request.form.get('specialChars')
-    #randomNumbers = request.form.get('randomNumbers')
-    #leet = request.form.get('leet')
+    specialChars = request.form.get('chars')
+    randomNumbers = request.form.get('nums')
+    leet = request.form.get('leet')
     read_config("cupp.cfg")
     x = noninteractive(targetName, targetSurname, targetNickname, targetBirthday, partnerName, partnerNickname, partnerBirthday, childName, childNickname, childBirthday, petName, company,keywords, specialChars, randomNumbers, leet)
-    print(x)
-    
-    """
-    profile = {
-            "name": "bob",
-            "surname": "smith",
-            "nick": "putin",
-            "birthdate": "07101952",
-            "wife": "angela",
-            "wifen": "ljudmila",
-            "wifeb": "06011958",
-            "kid": "kat",
-            "kidn": "katerina",
-            "kidb": "31081986",
-            "pet": "werna",
-            "company": "russian federation",
-            "words": ["acd"],
-            "spechars1": "y",
-            "randnum": "y",
-            "leetmode": "y",
-            "spechars": [],
-        }
-    read_config("cupp.cfg")
-    x = generate_wordlist_from_profile(profile)
-    """
-    return render_template("response.html",a=x)
+    y = generate_wordlist_from_profile(x)
+    return render_template("response.html",wordlist=y)
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified

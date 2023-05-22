@@ -402,27 +402,26 @@ def noninteractive(name, profileSurname, profileNick, profileBirthdate, profileW
     profile["pet"] = profilePet.lower()
     profile["company"] = profileCompany.lower()
 
-    if profileWords:
+    if len(profileWords) > 0:
         profile["words"] = profileWords.split(",")
     else:
         profile["words"] = [""]
 
-    if profileSpechars1:
+    if profileSpechars1 == "y":
         profile["spechars1"] = "y"
     else:
         profile["spechars1"] = "n"
 
-    if profileRandnum:
+    if profileRandnum == "y":
         profile["randnum"] = "y"
     else:
         profile["randnum"] = "n"
 
-    if profileLeetmode:
+    if profileLeetmode == "y":
         profile["leetmode"] = "y"
     else:
         profile["leetmode"] = "n"
-        
-    generate_wordlist_from_profile(profile)  # generate the wordlist
+    return profile
 
 
 def generate_wordlist_from_profile(profile):

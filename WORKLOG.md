@@ -37,6 +37,7 @@
 ### 10/22/23
 
 * work on web form for user input with select for yes/no options
+* web demo now works for user data input on site
 
 # References and Resoures
 
