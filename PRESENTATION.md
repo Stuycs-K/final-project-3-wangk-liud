@@ -1,22 +1,24 @@
 # CUPP - Common User Passwords Profiler
+By Kevin Wang, Daniel Liu
+Period 3
 
 ## Show of Hands
-Who has ever created a password that included any one of these:
-* Your name?
+Who here has ever created a password that included any one of these:
+* Your `name`?
 * Nickname?
 * Birthdate?
 * Pet name?
 
 ## Your password is vulnerable
-Probably not to rockyou.txt, but a custom password list that hackers can tailor to your data.
+Probably not to rockyou.txt, but a `custom password list` that hackers can tailor to your data.
 
 ## How do hackers exploit this?
-[CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using personalized information.
+[CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using your personal information.
 
 ## How do I use CUPP?
 
 ### Installation
-Requirements: Python 3
+Requirement: `Python 3`
 
 Kali Linux:
 ```bash
@@ -31,7 +33,7 @@ cd cupp/
 ```
 
 ### Running
-CUPP is a command line script but provides an interactive mode that allows you to easily input data about your victim:
+CUPP is a command line script that provides an interactive mode that allows you to easily input data about your victim:
 
 ```bash
 ./cupp.py -i
@@ -66,7 +68,7 @@ We created a [CUPP web app]() to streamline the process.
 # Lessons
 
 ## Data leaks can make your password vulnerable
-Your personal data can be used to bruteforce your passwords.
+Even if your password itself is not exposed, your personal data can be used to bruteforce your passwords.
 
 ## USE A PASSWORD MANAGER
 Password managers are not suspectable to tailored passwords, among numerous other security benefits.

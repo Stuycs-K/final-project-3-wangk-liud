@@ -16,6 +16,10 @@
 * include instructions to run web app in readme
 * begin on tryhackme
 
+### 10/20/23
+* fine tune presentation details
+* got flask server to run on virtualbox on startup
+
 ## Daniel Liu
 
 ### 10/17/23
