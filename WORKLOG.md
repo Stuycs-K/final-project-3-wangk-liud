@@ -38,6 +38,10 @@
 * radio buttons
 * work on cupp function result
 
+### 10/22/23
+
+* work on web form for user input with select for yes/no options
+
 # References and Resoures
 
 ## General Help
@@ -50,3 +54,6 @@
 * [systemctl docs](https://www.freedesktop.org/software/systemd/man/systemctl.html)
 
 ## Web App Help
+* [W3 Schools Select Tag Syntax](https://www.w3schools.com/tags/tag_select.asp)
+* [W3 Schools HTML Forms](https://www.w3schools.com/html/html_forms.asp)
+* [Flask Documentation](https://flask.palletsprojects.com/en/2.3.x/)
