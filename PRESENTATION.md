@@ -57,6 +57,12 @@ After providing this info, CUPP will generate a wordlist geared towards the  inf
 # Demo
 Any volunteers willing to fork up their personal data?
 
+## CLI DEMO
+Showcase how to use CUPP in the command line
+
+## WEB DEMO
+We created a [CUPP web app]() to streamline the process.
+
 # Lessons
 
 ## Data leaks can make your password vulnerable
