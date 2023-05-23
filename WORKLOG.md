@@ -16,9 +16,13 @@
 * include instructions to run web app in readme
 * begin on tryhackme
 
-### 10/20/23
+### 10/22/23
 * fine tune presentation details
 * got flask server to run on virtualbox on startup
+
+### 10/23/23
+* uploaded .ova file to tryhackme
+* putting together tryhackme tasks
 
 ## Daniel Liu
 
