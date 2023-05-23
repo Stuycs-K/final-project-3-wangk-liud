@@ -21,7 +21,6 @@ def home():
 
 @app.route("/target_info",  methods=['GET', 'POST'])
 def target_info():
-    
     targetName = request.form.get('targetName')
     targetSurname = request.form.get('targetSurname')
     targetNickname = request.form.get('targetNickname')

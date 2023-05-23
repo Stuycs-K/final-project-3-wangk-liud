@@ -52,7 +52,7 @@
       <input type="text"name="company"placeholder="target's workplace/company" >
         <br>
         <br>
-      <input type="text"name="keywords"placeholder="Enter in comma seperated words (e.g. juice, coffee,pastry)" >
+      <input type="text"name="keywords" style="width: 400px;" placeholder="Enter in comma seperated keywords (e.g. juice, coffee,pastry)" >
         <br>
         <br>
 
@@ -80,6 +80,27 @@
         <br>
         <br>
         <br>
+    
+      <input type="submit" name="Submit">
+    </form>
+
+
+    <form action="/config" method="POST">
+          <label for="default">Make a selection:</label>
+          <select name="default" id="default">
+            <option value="y">Use default settings</option>
+            <option value="n">Use special settings that you conifgure</option>
+          </select>
+          <br>
+          <input type="text"name="specialYears" style="width: 400px;" placeholder="Enter in comma seperated years e.g. 2020,2021,2022" >
+          <br>
+          <input type="text"name="moreSpecialChars" style="width: 400px;" placeholder="Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*" >
+          <br>
+          <input type="text"name="numRange" style="width: 400px;" placeholder="Enter in comma seperated range of numbers e.g. 0,100" >
+          <br>
+          <input type="text"name="wcRange" style="width: 400px;" placeholder="Exclude words with length outside of range e.g. 5,10" >
+          <br>
+          <input type="text"name="threshold" style="width: 400px;" placeholder="Specify threshold e.g. 200 is reccomended" >
     
       <input type="submit" name="Submit">
     </form>

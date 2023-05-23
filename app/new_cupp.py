@@ -48,6 +48,9 @@ __version__ = "3.3.0"
 
 CONFIG = {}
 
+def update_config():
+     """Updates (CONFIG)."""
+     
 
 def read_config(filename):
     """Read the given configuration file and update global variables to reflect

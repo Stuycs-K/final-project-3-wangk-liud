@@ -43,6 +43,11 @@
 * work on web form for user input with select for yes/no options
 * web demo now works for user data input on site
 
+### 10/23/23
+
+* work on response page so that each entry in wordlist is on a new line 
+* work on web form for config 
+
 # References and Resoures
 
 ## General Help

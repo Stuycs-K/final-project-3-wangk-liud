@@ -5,10 +5,16 @@
    </head>
  
    <body>
-    <p>
-      {{wordlist}}
-    </p>
+
+    <form action = "/">
+      <input type="submit" value="Return to Home">
+    </form>
+
+    <br>
     
+    {% for entry in wordlist%}
+    <li>{{entry}}</li>
+    {% endfor %}
 
    </body>
  
