@@ -37,10 +37,22 @@ def target_info():
     specialChars = request.form.get('chars')
     randomNumbers = request.form.get('nums')
     leet = request.form.get('leet')
-    read_config("cupp.cfg")
-    x = noninteractive(targetName, targetSurname, targetNickname, targetBirthday, partnerName, partnerNickname, partnerBirthday, childName, childNickname, childBirthday, petName, company,keywords, specialChars, randomNumbers, leet)
-    y = generate_wordlist_from_profile(x)
-    return render_template("response.html",wordlist=y)
+
+    specialYears = request.form.get('specialYears')
+    moreSpecialChars = request.form.get('moreSpecialChars')
+    numRange = request.form.get('numRange')
+    wcRange = request.form.get('wcRange')
+    threshold = request.form.get('threshold')
+    #update_config(specialYears,moreSpecialChars,numRange,wcRange,threshold)
+
+    # specialYears, moreSpecialChars, numRange, wcRange, threshold
+    if request.form.get('default') == y:
+        read_config("cupp.cfg")
+        x = noninteractive(targetName, targetSurname, targetNickname, targetBirthday, partnerName, partnerNickname, partnerBirthday, childName, childNickname, childBirthday, petName, company,keywords, specialChars, randomNumbers, leet)
+        y = generate_wordlist_from_profile(x)
+        return render_template("response.html",wordlist=y)
+    else:
+        return render_template("response.html",wordlist=y)
 
 if __name__ == "__main__": #false if this file imported as module
     #enable debugging, auto-restarting of server when this file is modified

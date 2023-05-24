@@ -76,35 +76,44 @@
             <option value="y">Leet Mode</option>
             <option value="n">No Leet Mode</option>
           </select>
-    
-        <br>
-        <br>
-        <br>
-    
-      <input type="submit" name="Submit">
-    </form>
 
+          <br><br>
 
-    <form action="/config" method="POST">
           <label for="default">Make a selection:</label>
           <select name="default" id="default">
             <option value="y">Use default settings</option>
             <option value="n">Use special settings that you conifgure</option>
           </select>
           <br>
+          <h3>Leave The Rest Blank if Using Default Settings</h3>
+        
           <input type="text"name="specialYears" style="width: 400px;" placeholder="Enter in comma seperated years e.g. 2020,2021,2022" >
           <br>
-          <input type="text"name="moreSpecialChars" style="width: 400px;" placeholder="Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*" >
           <br>
+
+          <input type="text"name="moreSpecialChars" style="width: 400px;" placeholder="Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*" >
+          
+          <br>
+          <br>
+
           <input type="text"name="numRange" style="width: 400px;" placeholder="Enter in comma seperated range of numbers e.g. 0,100" >
           <br>
-          <input type="text"name="wcRange" style="width: 400px;" placeholder="Exclude words with length outside of range e.g. 5,10" >
           <br>
+
+          <input type="text"name="wcRange" style="width: 400px;" placeholder="Exclude words with length outside of range e.g. 5,10" >
+          
+          <br>
+          <br>
+
           <input type="text"name="threshold" style="width: 400px;" placeholder="Specify threshold e.g. 200 is reccomended" >
-    
+
+        <br>
+        <br>
+        <br>
+        
       <input type="submit" name="Submit">
     </form>
-    
+
   </body>
 
 </html>

@@ -52,6 +52,10 @@
 * work on response page so that each entry in wordlist is on a new line 
 * work on web form for config 
 
+### 10/24/23
+
+* work on config web form
+
 # References and Resoures
 
 ## General Help
