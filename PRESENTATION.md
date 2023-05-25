@@ -23,13 +23,13 @@ Probably not to rockyou.txt, but a `custom password list` that hackers can tailo
 Requirement: `Python 3`
 
 Kali Linux:
-```sh
+```
 $ sudo apt install cupp
 ```
 
 Other:
 
-```sh
+```
 $ git clone https://github.com/Mebus/cupp.git
 $ cd cupp/
 ```
@@ -37,7 +37,7 @@ $ cd cupp/
 ### Running
 CUPP is a command line script that provides an interactive mode that allows you to easily input data about your victim:
 
-```sh
+```
 $ python3 cupp.py -i
 ```
 ![cupp interactive mode](cupp.png "interactive")
