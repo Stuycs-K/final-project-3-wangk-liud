@@ -24,6 +24,12 @@
 * uploaded .ova file to tryhackme
 * putting together tryhackme tasks
 
+### 10/24/23
+* finished creating tryhackme tasks
+
+### 10/25/23
+* testing tryhackme room
+
 ## Daniel Liu
 
 ### 10/17/23
