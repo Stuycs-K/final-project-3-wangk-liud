@@ -3,7 +3,7 @@ John is your best friend. You know everything about him, and you want to hack hi
 
 
 ## How do I do that?
-1. Look through the hints and use CUPP to create common passwords.
-2. Use Hydra to brute force his banking portal’s web form
+1. Look through the hints and use CUPP to create a custom wordlist based off of John's personal information:
+2. Use Hydra with the custom wordlist to brute force his banking portal’s web form
 
 INSERT TRYHACKME LINK
