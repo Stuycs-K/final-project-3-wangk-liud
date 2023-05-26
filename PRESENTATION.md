@@ -42,6 +42,8 @@ $ python3 cupp.py -i
 ```
 ![cupp interactive mode](cupp.png "interactive")
 
+![cupp interactive mode](demo.png "web form")
+
 
 When running in the interactive mode, you can provide details about the victim:
 
