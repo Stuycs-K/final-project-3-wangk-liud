@@ -26,105 +26,159 @@
 
     <form action="/target_info" method="POST">
       
-      <div class="form-floating mb-3 mt-3">
-      <input type="text" class="form-control" name="targetName">
+      <div class="form-floating">
+      <input type="text" class="form-control" name="targetName" style="width: 400px;" placeholder="First name of the target">
       <label for="userFirst">First name of the target</label>
       </div>
 
-        <br>
-        <br>
-      <input type="text"name="targetSurname"placeholder="Last name of the target" >
-        <br>
-        <br>
-      <input type="text"name="targetNickname"placeholder="Nickname of the target" >
-        <br>
-        <br>
-      <input type="text"name="targetBirthday" style="width: 400px;" placeholder="Birthday of the target (DDMMYYYY)" >
-        <br>
-        <br>
-      <input type="text"name="partnerName"placeholder="First name of the target's partner" >
-        <br>
-        <br>
-      <input type="text"name="partnerNickname"placeholder="Nickname of the target's partner" >
-        <br>
-        <br>
-      <input type="text"name="partnerBirthday" style="width: 400px;" placeholder="Birthday of the target's partner (DDMMYYYY)" >
-        <br>
-        <br>
-      <input type="text"name="childName"placeholder="First name of the target's child" >
-        <br>
-        <br>
-      <input type="text"name="childNickname"placeholder="Nickname of the target's child" >
-        <br>
-        <br>
-      <input type="text"name="childBirthday" style="width: 400px;" placeholder="Birthday of the target's child (DDMMYYYY)" >
-        <br>
-        <br>
-      <input type="text"name="petName"placeholder="First name of the target's pet" >
-        <br>
-        <br>
-      <input type="text"name="company"placeholder="target's workplace/company" >
-        <br>
-        <br>
-      <input type="text"name="keywords" style="width: 400px;" placeholder="Enter in comma seperated keywords (e.g. juice, coffee,pastry)" >
-        <br>
-        <br>
+      <br>
 
-          <label for="specialChars" class="form-label">Special Characters?</label>
-          <select name="chars"  class="form-control" id="chars">
-            <option value="y">Yes Special Characters</option>
-            <option value="n">No Special Characters</option>
-          </select>
+      <div class="form-floating">
+      <input type="text" class="form-control" name="targetSurname" style="width: 400px;" placeholder="Last name of the target">
+      <label for="userLast">Last name of the target</label>
+      </div>
 
-          <br>
+      <br>
 
-          <label for="specialNums" class="form-label">Special Numbers?</label>
-          <select name="nums" class="form-control" id="nums">
-            <option value="y">Yes Special Numbers</option>
-            <option value="n">No Special Numbers</option>
-          </select>
+      <div class="form-floating">
+      <input type="text" class="form-control" name="targetNickname" style="width: 400px;" placeholder="Nickname of the target" >
+      <label for="userNick">Nickname of target</label>
+      </div>
 
-          <br>
+      <br>
 
-          <label for="specialLeet"  class="form-label">Leet Mode?</label>
-          <select name="leet" class="form-control" id="leet">
-            <option value="y">Leet Mode</option>
-            <option value="n">No Leet Mode</option>
-          </select>
+      <div class="form-floating">
+      <input type="text" class="form-control" name="targetBirthday" style="width: 400px;" placeholder="Birthday of the target (DDMMYYYY)">
+      <label for="targetBirthday">Birthday of the target (DDMMYYYY)</label>
+      </div>
 
-          <br>
+      <br>
+      
+      <div class="form-floating">
+      <input type="text" class="form-control" name="partnerName" style="width: 400px;" placeholder="First name of the target's partner">
+      <label for="partnerName">First name of the target's partner</label>
+      </div>
 
-          <label for="default" class="form-label">Default Selection?</label>
-          <select name="default" class="form-control" id="default">
-            <option value="y">Use default settings</option>
-            <option value="n">Use special settings that you conifgure</option>
-          </select>
+      <br>
 
-          <br>
+      <div class="form-floating">
+      <input type="text" class="form-control" name="partnerNickname" style="width: 400px;" placeholder="Nickname of the target's partner">
+      <label for="partnerNickname">Nickname of the target's partner</label>
+      </div>  
+      <br>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="partnerBirthday" style="width: 400px;" placeholder="Birthday of the target's partner (DDMMYYYY)" >
+      <label for="partnerBirthday">Birthday of the target's partner (DDMMYYYY)</label>
+      </div>
+
+      <br>
+      
+      <div class="form-floating">
+      <input type="text" class="form-control" name="childName" style="width: 400px;" placeholder="First name of the target's child" >
+      <label for="childName">First name of the target's child</label>
+    </div>
+
+      <br>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="childNickname" style="width: 400px;" placeholder="Nickname of the target's child" >
+      <label for="childNickname">Nickname of the target's child</label>
+    </div>
+
+      <br>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="childBirthday" style="width: 400px;" placeholder="Birthday of the target's child (DDMMYYYY)" >
+      <label for="childBirthday">Birthday of the target's child (DDMMYYYY)</label>
+    </div>
+      <br>
+      
+      <div class="form-floating">
+      <input type="text" class="form-control" name="petName" style="width: 400px;" placeholder="First name of the target's pet">
+      <label for="petName">First name of the target's pet</label>
+      </div>
+      <br>
+
+      <div class="form-floating">
+      <input type="text" class="form-control" name="company" style="width: 400px;" placeholder="Target's workplace/company" >
+      <label for="company">Target's workplace/company</label>
+      </div>
+      <br>
+      
+      <div class="form-floating">
+      <input type="text" class="form-control" name="keywords" style="width: 400px;" placeholder="Enter in comma seperated keywords (e.g. key, rocket, five)" >
+      <label for="keywords">Enter in comma seperated keywords (e.g. key, rocket, five)</label>
+    </div> 
+      <br>
+      
+      <label for="specialChars" class="form-label">Special Characters?</label>
+      <select name="chars"  class="form-control" id="chars">
+        <option value="y">Yes Special Characters</option>
+        <option value="n">No Special Characters</option>
+      </select>
+
+      <br>
+
+      <label for="specialNums" class="form-label">Special Numbers?</label>
+      <select name="nums" class="form-control" id="nums">
+        <option value="y">Yes Special Numbers</option>
+        <option value="n">No Special Numbers</option>
+      </select>
+
+      <br>
+
+      <label for="specialLeet"  class="form-label">Leet Mode?</label>
+      <select name="leet" class="form-control" id="leet">
+        <option value="y">Leet Mode</option>
+        <option value="n">No Leet Mode</option>
+      </select>
+
+      <br>
+
+      <label for="default" class="form-label">Default Selection?</label>
+      <select name="default" class="form-control" id="default">
+        <option value="y">Use default settings</option>
+        <option value="n">Use special settings that you conifgure</option>
+      </select>
+
+      <br>
 
           <h3>Leave The Rest Blank if Using Default Settings</h3>
-        
-          <input type="text"name="specialYears" style="width: 400px;" placeholder="Enter in comma seperated years e.g. 2020,2021,2022" >
-          <br>
           <br>
 
-          <input type="text"name="moreSpecialChars" style="width: 400px;" placeholder="Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*" >
+          <div class="form-floating">
+          <input type="text" class="form-control" name="specialYears" style="width: 500px;" placeholder="Enter in comma seperated years e.g. 2020,2021,2022" >
+          <label for="text">Enter in comma seperated years e.g. 2020,2021,2022</label>
+        </div>
+          <br>
+          
+          <div class="form-floating">
+          <input type="text" class="form-control" name="moreSpecialChars" style="width: 550px;" placeholder="Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*" >
+          <label for="moreSpecialChars">Enter in comma seperated special chars e.g. !,@,'#',$,%%,&,*</label>
+        </div>
           
           <br>
-          <br>
 
-          <input type="text"name="numRange" style="width: 600px;" placeholder="Enter in comma seperated range of numbers that will be added to all words. e.g. 0,100" >
-          <br>
-          <br>
+          <div class="form-floating">
+          <input type="text" class="form-control" name="numRange" style="width: 675px;" placeholder="Enter in comma seperated range of numbers that will be added to all words. e.g. 0,100" >
+          <label for="numRange">Enter in comma seperated range of numbers that will be added to all words. e.g. 0,100</label>
+        </div>
 
-          <input type="text"name="wcRange" style="width: 600px;" placeholder="Exclude words with length outside of range e.g. 5,10 (inclusive, exclusive)" >
+          <br>
           
-          <br>
-          <br>
+          <div class="form-floating">
+          <input type="text" class="form-control" name="wcRange" style="width: 600px;" placeholder="Exclude words with length outside of range e.g. 5,10 (inclusive, exclusive)" >
+          <label for="wcRange">Exclude words with length outside of range e.g. 5,10 (inclusive, exclusive)</label>
+        </div>
 
-          <input type="text"name="threshold" style="width: 400px;" placeholder="Specify threshold e.g. 200 is reccomended" >
+          <br>
+          
+          <div class="form-floating">
+          <input type="text" class="form-control" name="threshold" style="width: 400px;" placeholder="Specify threshold e.g. 200 is reccomended" >
+          <label for="threshold">Specify threshold e.g. 200 is reccomended</label>
+        </div>
 
-        <br>
         <br>
         <br>
         
