@@ -2,72 +2,75 @@
 
 ## Kevin Wang
 
-### 10/17/23
+### 5/17/23
 * init worklog
 * presentation starter
 
-### 10/18/23
+### 5/18/23
 * presentation how to use cupp guide
 * more presentation parts
 * initalize homework details without tryhackme room
 
-### 10/19/23
+### 5/19/23
 * modify cupp to not be command line and as a parameterized project to be used on front-end
 * include instructions to run web app in readme
 * begin on tryhackme
 
-### 10/22/23
+### 5/22/23
 * fine tune presentation details
 * got flask server to run on virtualbox on startup
 
-### 10/23/23
+### 5/23/23
 * uploaded .ova file to tryhackme
 * putting together tryhackme tasks
 
-### 10/24/23
+### 5/24/23
 * finished creating tryhackme tasks
 
-### 10/25/23
+### 5/25/23
 * testing tryhackme room
+
+### 5/27/23
+* completed testing tryhackme room, did complete run through
 
 ## Daniel Liu
 
-### 10/17/23
+### 5/17/23
 
 * init app and associated directories
 
-### 10/18/23
+### 5/18/23
 
 * make web form for user input
 * make relevant templates and did routing
 * got cupp repo
 
-### 10/19/23
+### 5/19/23
 
 * work on web form for user input
 * radio buttons
 * work on cupp function result
 
-### 10/22/23
+### 5/22/23
 
 * work on web form for user input with select for yes/no options
 * web demo now works for user data input on site
 
-### 10/23/23
+### 5/23/23
 
 * work on response page so that each entry in wordlist is on a new line 
 * work on web form for config 
 
-### 10/24/23
+### 5/24/23
 
 * work on config web form
 
-### 10/25/23
+### 5/25/23
 
 * config web form now works for config file
 * demo now fully works, tested
 
-### 10/26/23
+### 5/26/23
 
 * improve styling and appearence of home page and associated web forms
 
