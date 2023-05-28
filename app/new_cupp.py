@@ -48,8 +48,47 @@ __version__ = "3.3.0"
 
 CONFIG = {}
 
-def update_config():
+def update_config(filename,specialYears,moreSpecialChars,numRange,wcRange,threshold):
      """Updates (CONFIG)."""
+     if os.path.isfile(filename):
+
+        # global CONFIG
+
+        # Reading configuration file
+        config = configparser.ConfigParser()
+        config.read(filename)
+    
+        CONFIG["global"] = {
+            "years": specialYears.split(","),
+            "chars": moreSpecialChars.split(","),
+            "numfrom": int(numRange.split(",")[0]),
+            "numto": int(numRange.split(",")[1]),
+            "wcfrom": int(wcRange.split(",")[0]),
+            "wcto": int(wcRange.split(",")[1]),
+            "threshold": int(threshold),
+            "alectourl": config.get("alecto", "alectourl"),
+            "dicturl": config.get("downloader", "dicturl"),
+        }
+
+        # 1337 mode configs, well you can add more lines if you add it to the
+        # config file too.
+        leet = functools.partial(config.get, "leet")
+        leetc = {}
+        letters = {"a", "i", "e", "t", "o", "s", "g", "z"}
+
+        for letter in letters:
+            leetc[letter] = config.get("leet", letter)
+
+        CONFIG["LEET"] = leetc
+
+        return True
+
+     else:
+        print("Configuration file " + filename + " not found!")
+        sys.exit("Exiting.")
+
+        return False
+
      
 
 def read_config(filename):

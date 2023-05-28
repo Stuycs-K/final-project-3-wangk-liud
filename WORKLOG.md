@@ -62,6 +62,15 @@
 
 * work on config web form
 
+### 10/25/23
+
+* config web form now works for config file
+* demo now fully works, tested
+
+### 10/26/23
+
+* improve styling and appearence of home page and associated web forms
+
 # References and Resoures
 
 ## General Help
