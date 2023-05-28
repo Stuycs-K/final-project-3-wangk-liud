@@ -70,7 +70,7 @@ But we created a [CUPP web app]() to streamline the process.
 # Lessons
 
 ## Data leaks can make your password vulnerable
-Even if your password itself is not exposed, your personal data can be used to bruteforce your passwords.
+Even if your password itself is not exposed in a data leak, your personal data can be used to bruteforce your passwords.
 
 ## USE A PASSWORD MANAGER
 Password managers are not suspectable to tailored passwords, among numerous other security benefits.
