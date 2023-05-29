@@ -1,5 +1,5 @@
 # CUPP - Common User Passwords Profiler
-By Kevin Wang, Daniel Liu  
+By Kevin Wang, Daniel Liu
 Period 3
 
 ## Show of Hands
@@ -22,13 +22,14 @@ CUPP stands for Common User Password Profiler.
 
 ## How can we use CUPP?
 In order to understand this, we can use the default options to make it easier to visualize.
-
+```
 chars= !, @, #, $, %%, %, *
 years = 1990, 1991 ... 2003, 2004, 2005
 numRange = 0, 100
 wcRange = 5, 12
+```
 
-First, random combinations of the previously specified deafult chars were generated and added to a list. 
+First, random combinations of the previously specified deafult chars were generated and added to a list.
 Then, splices of relevant words were generated and also added to a list. These include, but are not limited to: last 2 of birth year, birth year, day/month of birthday. This process was generated for each person (target, patner, child)
 The birthday splices for each person were combined individually, in pairs, and in triplets.
 For each relevant name (like target surname, pet name, and company name), they were all capitalized. Relevant names were also reversed. Then, they were added to lists for each person.
@@ -38,25 +39,28 @@ In summary, CUPP works by taking the information of the target and those they ca
 
 * It is important to note that CUPP supports the option to use a custom wordlist when generating its wordlist through the -l option, and this includes support for languages like Chinese, Russian, and Swahili.
 
-# for concatenations...
+# Concatenations...
+```
 def concats(seq, start, stop):
     for mystr in seq:
         for num in range(start, stop):
             yield mystr + str(num)
-
-
-# for sorting and making combinations...
+```
+# Combinations...
+```
 def komb(seq, start, special=""):
     for mystr in seq:
         for mystr1 in start:
             yield mystr + special + mystr1
-
-# for leet mode
+```
+# Leet Mode
+```
 def make_leet(x):
     """convert string to leet"""
     for letter, leetletter in CONFIG["LEET"].items():
         x = x.replace(letter, leetletter)
     return x
+```
 
 ### Installation
 Requirement: `Python 3`
@@ -100,10 +104,10 @@ Note that any information that you leave blank will not be reflected in the fina
 After providing this info, CUPP will generate a wordlist geared towards the  information you provided.
 
 In interactive mode in CUPP, you cannot edit the cupp.cfg file in the CLI. Instead, you will have to use a text editor.
-However, we have made a web form where you can input the user's data and also edit the config file. 
+However, we have made a web form where you can input the user's data and also edit the config file.
 
 # Demo
-Are there any volunteers willing to fork up their personal data? 
+Are there any volunteers willing to fork up their personal data?
 
 ## CLI
 Showcase how to use CUPP in the command line
