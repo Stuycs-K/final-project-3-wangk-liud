@@ -412,11 +412,7 @@ def interactive():
     generate_wordlist_from_profile(profile)  # generate the wordlist
 
 def noninteractive(name, profileSurname, profileNick, profileBirthdate, profileWife, profileWifeNick, profileWifeBirthdate, profileKid, profileKidNick, profileKidBirthdate, profilePet, profileCompany, profileWords, profileSpechars1, profileRandnum, profileLeetmode):
-    """Implementation of the -i switch. Interactively question the user and
-    create a password dictionary file based on the answer."""
-
-    print("\r\n[+] Insert the information about the victim to make a dictionary")
-    print("[+] If you don't know all the info, just hit enter when asked! ;)\r\n")
+    """Modified for use with web form"""
 
     # We need some information first!
 
