@@ -74,6 +74,13 @@
 
 * improve styling and appearence of home page and associated web forms
 
+### 5/29/23
+
+* use javascript to add event listener to default selection
+* move app to droplet for hosting
+* research details of algorithm cupp uses
+
+
 # References and Resoures
 
 ## General Help

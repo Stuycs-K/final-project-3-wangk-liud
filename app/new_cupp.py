@@ -87,8 +87,6 @@ def update_config(filename,specialYears,moreSpecialChars,numRange,wcRange,thresh
         print("Configuration file " + filename + " not found!")
         sys.exit("Exiting.")
 
-        return False
-
      
 
 def read_config(filename):
@@ -131,8 +129,6 @@ def read_config(filename):
     else:
         print("Configuration file " + filename + " not found!")
         sys.exit("Exiting.")
-
-        return False
 
 
 def make_leet(x):
