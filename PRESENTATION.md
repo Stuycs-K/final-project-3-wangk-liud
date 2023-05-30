@@ -16,29 +16,7 @@ Probably not to rockyou.txt, but a `custom password list` that hackers can tailo
 
 ## How do hackers exploit this?
 [CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using your personal information. It stands for Common User Password Profiler.
-
-### Concatenations...
-```py
-def concats(seq, start, stop):
-    for mystr in seq:
-        for num in range(start, stop):
-            yield mystr + str(num)
-```
-### Combinations...
-```py
-def komb(seq, start, special=""):
-    for mystr in seq:
-        for mystr1 in start:
-            yield mystr + special + mystr1
-```
-### Leet Mode
-```py
-def make_leet(x):
-    """convert string to leet"""
-    for letter, leetletter in CONFIG["LEET"].items():
-        x = x.replace(letter, leetletter)
-    return x
-```
+=
 
 ## Installation
 Requirement: `Python 3`
@@ -104,6 +82,29 @@ wcRange = 5, 12
 5. The following two functions (concats and komb) were used to add numbers to each word as well as generate combinations of the words with the specified delimiter.
 
 In summary, CUPP works by taking the information of the target and those they care about and generating as many of the possible combinations of that data (whether it is spliced, reversed, or capitalized) and putting that into a wordlist.
+
+### Concatenations...
+```py
+def concats(seq, start, stop):
+    for mystr in seq:
+        for num in range(start, stop):
+            yield mystr + str(num)
+```
+### Combinations...
+```py
+def komb(seq, start, special=""):
+    for mystr in seq:
+        for mystr1 in start:
+            yield mystr + special + mystr1
+```
+### Leet Mode
+```py
+def make_leet(x):
+    """convert string to leet"""
+    for letter, leetletter in CONFIG["LEET"].items():
+        x = x.replace(letter, leetletter)
+    return x
+```
 
 ## Lessons
 
