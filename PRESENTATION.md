@@ -1,5 +1,5 @@
 # CUPP - Common User Passwords Profiler
-By Kevin Wang, Daniel Liu
+By Kevin Wang, Daniel Liu  
 Period 3
 
 ## Show of Hands
