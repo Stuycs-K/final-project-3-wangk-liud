@@ -34,21 +34,21 @@ wcRange = 5, 12
 
 In summary, CUPP works by taking the information of the target and those they care about and generating as many of the possible combinations of that data (whether it is spliced, reversed, or capitalized) and putting that into a wordlist.
 
-# Concatenations...
+### Concatenations...
 ```py
 def concats(seq, start, stop):
     for mystr in seq:
         for num in range(start, stop):
             yield mystr + str(num)
 ```
-# Combinations...
+### Combinations...
 ```py
 def komb(seq, start, special=""):
     for mystr in seq:
         for mystr1 in start:
             yield mystr + special + mystr1
 ```
-# Leet Mode
+### Leet Mode
 ```py
 def make_leet(x):
     """convert string to leet"""
@@ -57,7 +57,7 @@ def make_leet(x):
     return x
 ```
 
-### Installation
+## Installation
 Requirement: `Python 3`
 
 Kali Linux:
@@ -72,7 +72,7 @@ $ git clone https://github.com/Mebus/cupp.git
 $ cd cupp/
 ```
 
-### Running
+## Using CUPP
 CUPP is a command line script that provides an interactive mode that allows you to easily input data about your victim:
 
 ```
@@ -95,11 +95,6 @@ When running in the interactive mode, you can provide details about the victim:
 * keywords associated with them
 
 Note that any information that you leave blank will not be reflected in the final wordlist.
-
-After providing this info, CUPP will generate a wordlist geared towards the  information you provided.
-
-In interactive mode in CUPP, you cannot edit the cupp.cfg file in the CLI. Instead, you will have to use a text editor.
-However, we have made a web form where you can input the user's data and also edit the config file.
 
 # Demo
 Are there any volunteers willing to fork up their personal data?
