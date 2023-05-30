@@ -17,23 +17,6 @@ Probably not to rockyou.txt, but a `custom password list` that hackers can tailo
 ## How do hackers exploit this?
 [CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using your personal information. It stands for Common User Password Profiler.
 
-## How does CUPP work?
-In order to understand this, we can use the default options to make it easier to visualize.
-```
-chars= !, @, #, $, %%, %, *
-years = 1990, 1991 ... 2003, 2004, 2005
-numRange = 0, 100
-wcRange = 5, 12
-```
-
-1. First, random combinations of the previously specified default chars were generated and added to a list.
-2. Then, splices of relevant words were generated and also added to a list. These include, but are not limited to: last 2 of birth year, birth year, day/month of birthday. This process was generated for each person (target, patner, child)
-3. The birthday splices for each person were combined individually, in pairs, and in triplets.
-4. For each relevant name (like target surname, pet name, and company name), they were all capitalized. Relevant names were also reversed. Then, they were added to lists for each person.
-5. The following two functions (concats and komb) were used to add numbers to each word as well as generate combinations of the words with the specified delimeter.
-
-In summary, CUPP works by taking the information of the target and those they care about and generating as many of the possible combinations of that data (whether it is spliced, reversed, or capitalized) and putting that into a wordlist.
-
 ### Concatenations...
 ```py
 def concats(seq, start, stop):
@@ -105,12 +88,29 @@ Showcase how to use CUPP in the command line
 ### CLIs are cool and all...
 But we created a [CUPP web app]() to streamline the process.
 
+## How does CUPP work?
+In order to understand this, we can use the default options to make it easier to visualize.
+```
+chars= !, @, #, $, %%, %, *
+years = 1990, 1991 ... 2003, 2004, 2005
+numRange = 0, 100
+wcRange = 5, 12
+```
+
+1. First, random combinations of the previously specified default chars were generated and added to a list.
+2. Then, splices of relevant words were generated and also added to a list. These include, but are not limited to: last 2 of birth year, birth year, day/month of birthday. This process was generated for each person (target, partner, child)
+3. The birthday splices for each person were combined individually, in pairs, and in triplets.
+4. For each relevant name (like target surname, pet name, and company name), they were all capitalized. Relevant names were also reversed. Then, they were added to lists for each person.
+5. The following two functions (concats and komb) were used to add numbers to each word as well as generate combinations of the words with the specified delimiter.
+
+In summary, CUPP works by taking the information of the target and those they care about and generating as many of the possible combinations of that data (whether it is spliced, reversed, or capitalized) and putting that into a wordlist.
+
 ## Lessons
 
 ### Data leaks can make your password vulnerable
 Even if your password itself is not exposed, your personal data can be used to brute force your passwords.
 
 ### USE A PASSWORD MANAGER
-Password managers are not suspectable to tailored passwords, among numerous other security benefits.
+Password managers are not susceptible to tailored passwords, among numerous other security benefits.
 
 [Homework](https://github.com/Stuycs-K/final-project-3-wangk-liud/blob/main/HOMEWORK.md)
