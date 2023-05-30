@@ -6,7 +6,7 @@
 </head>
 
   <body>
-    <div class="mt-4 p-5 bg-primary text-white rounded">
+    <div class="p-5 bg-primary text-white">
     <h1>
           CUPP Online Demo
     </h1>
@@ -18,12 +18,13 @@
    </div>
    
     <br>
-
+   <div class="container">
    <h1>User Information </h1>
 
-   <h2>
+   <div class="container">
+   <p>
       Leave questions you do not know blank
-    </h2>
+   </p>
 
     <form action="/target_info" method="POST">
       
@@ -137,15 +138,18 @@
 
       <br>
 
-      <label for="default" class="form-label">Default Selection?</label>
-      <select name="default" class="form-control" id="default">
-        <option value="y">Use default settings</option>
-        <option value="n">Use special settings that you conifgure</option>
-      </select>
-
+      
+    </div>
       <br>
 
           <h3>Leave The Rest Blank if Using Default Settings</h3>
+
+          <div class="container">
+            <label for="default" class="form-label">Default Selection?</label>
+        <select name="default" class="form-control" id="default">
+          <option value="y">Use default settings</option>
+          <option value="n">Use special settings that you conifgure</option>
+        </select>
           <br>
 
           <div class="form-floating">
@@ -182,8 +186,12 @@
         <br>
         <br>
         
-      <input type="submit" class="btn btn-danger" name="Submit">
+      
+    </div>
+    <input type="submit" class="btn btn-primary btn-lg" name="Submit">
     </form>
+  </div>
+  <br>
 
     <script src="../static/js/script.js"></script>
 
