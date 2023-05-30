@@ -18,11 +18,3 @@ $ python3 app.py
 
 ## Homework
 [Homework](https://github.com/Stuycs-K/final-project-3-wangk-liud/blob/main/HOMEWORK.md)
-
-## Worklog
-[Worklog](https://github.com/Stuycs-K/final-project-3-wangk-liud/blob/main/WORKLOG.md)
-
-## Other Links
-* [CUPP](https://github.com/Mebus/cupp/tree/master)
-* [CUPP Web App that we made](https://marshyy.me:5001/home)
-* [Forked, parametizered CUPP for Web App](https://github.com/kev1n/cupp)
