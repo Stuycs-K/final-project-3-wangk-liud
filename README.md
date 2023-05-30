@@ -24,5 +24,5 @@ $ python3 app.py
 
 ## Other Links
 * [CUPP](https://github.com/Mebus/cupp/tree/master)
-* [CUPP Web App]()
+* [CUPP Web App that we made](https://marshyy.me:5001/home)
 * [Forked, parametizered CUPP for Web App](https://github.com/kev1n/cupp)
