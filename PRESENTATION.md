@@ -96,21 +96,21 @@ When running in the interactive mode, you can provide details about the victim:
 
 Note that any information that you leave blank will not be reflected in the final wordlist.
 
-# Demo
+## Demo
 Are there any volunteers willing to fork up their personal data?
 
-## CLI
+### CLI
 Showcase how to use CUPP in the command line
 
-## CLIs are cool and all...
+### CLIs are cool and all...
 But we created a [CUPP web app]() to streamline the process.
 
-# Lessons
+## Lessons
 
-## Data leaks can make your password vulnerable
+### Data leaks can make your password vulnerable
 Even if your password itself is not exposed, your personal data can be used to brute force your passwords.
 
-## USE A PASSWORD MANAGER
+### USE A PASSWORD MANAGER
 Password managers are not suspectable to tailored passwords, among numerous other security benefits.
 
 [Homework](https://github.com/Stuycs-K/final-project-3-wangk-liud/blob/main/HOMEWORK.md)
