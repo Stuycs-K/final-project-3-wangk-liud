@@ -16,7 +16,6 @@ Probably not to rockyou.txt, but a `custom password list` that hackers can tailo
 
 ## How do hackers exploit this?
 [CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using your personal information. It stands for Common User Password Profiler.
-=
 
 ## Installation
 Requirement: `Python 3`
