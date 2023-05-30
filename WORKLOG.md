@@ -33,6 +33,11 @@
 ### 5/27/23
 * completed testing tryhackme room, did complete run through
 
+### 5/29/23
+* add some styling to web app
+* fix presentation formatting
+* run through presentation with Daniel
+
 ## Daniel Liu
 
 ### 5/17/23
