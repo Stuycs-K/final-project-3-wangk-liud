@@ -1,4 +1,8 @@
 # Presentation on CUPP
+3-wangk-liud  
+Kevin Wang  
+Daniel Liu  
+Period 3  
 
 ## About CUPP
 [CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using personalized information.
