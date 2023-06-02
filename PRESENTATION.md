@@ -40,9 +40,6 @@ $ python3 cupp.py -i
 ```
 ![cupp interactive mode](cupp.png "interactive")
 
-![cupp interactive mode](demo.png "web form")
-
-
 When running in the interactive mode, you can provide details about the victim:
 
 * name
@@ -61,9 +58,6 @@ Are there any volunteers willing to fork up their personal data?
 
 ### CLI
 Showcase how to use CUPP in the command line
-
-### CLIs are cool and all...
-But we created a [CUPP web app]() to streamline the process.
 
 ## How does CUPP work?
 In order to understand this, we can use the default options to make it easier to visualize.
@@ -104,6 +98,9 @@ def make_leet(x):
         x = x.replace(letter, leetletter)
     return x
 ```
+
+### CLIs are cool and all...
+But we created a [CUPP web app](https://marshyy.me:5001/home) to streamline the process.
 
 ## Lessons
 
