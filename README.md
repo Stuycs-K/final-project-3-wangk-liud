@@ -3,6 +3,9 @@
 ## About CUPP
 [CUPP](https://github.com/Mebus/cupp) is a tool that creates custom wordlists using personalized information.
 
+## Our Project
+We created a web app for running CUPP in the browser
+
 ## Directions to Run CUPP Web Flask App
 ```
 $ git clone git@github.com:Stuycs-K/final-project-3-wangk-liud.git
